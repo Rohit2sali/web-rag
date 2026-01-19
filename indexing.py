@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 import logging
 from tqdm import tqdm
 from qdrant_client import models
-from fastembed import SparseTextEmbedding, TextEmbedding
+from fastembed import SparseTextEmbedding
 from qdrant_client import QdrantClient
 from embedding import get_embedding_model
 
