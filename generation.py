@@ -6,7 +6,6 @@ from llama_index.llms.mistralai import MistralAI
 from dotenv import load_dotenv
 from llama_index.core.response_synthesizers import BaseSynthesizer
 import os
-import streamlit as st
 
 load_dotenv()
 
