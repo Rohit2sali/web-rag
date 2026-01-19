@@ -9,4 +9,5 @@ llama-index-core
 pypdf
 
 requests
+python-dotenv
 
