@@ -1,5 +1,4 @@
 from sentence_transformers import CrossEncoder
-import streamlit as st
 
 class reranking:
     def __init__(self):
