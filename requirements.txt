@@ -1,13 +1,25 @@
 fastapi
 uvicorn
-pydantic
 
+# LlamaIndex core
+llama-index
+llama-index-llms-mistralai
+
+# Vector DB
 qdrant-client
-fastembed
 
-llama-index-core
+# Embeddings
+fastembed
+sentence-transformers
+
+# PDF processing
 pypdf
 
-requests
+# Utils
 python-dotenv
+tqdm
+regex
+logging
+
+
 
