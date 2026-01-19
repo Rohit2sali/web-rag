@@ -2,7 +2,6 @@ import logging
 from dotenv import load_dotenv
 from fastembed import SparseTextEmbedding, TextEmbedding
 from qdrant_client import QdrantClient, models
-import streamlit as st
 
 load_dotenv()
 Qdrant_URL = "http://localhost:6333"
